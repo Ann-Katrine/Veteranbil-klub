@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <!--overskrift-->
+                <div class="col-12 col-sm-12 col-lg-12 p-3 bg-primary text-white">
+                    <h1 class="h1-fluid text-center"><em>Veteranbil klubben</em></h1>
+                </div>
+
+                <!--menu-->
+                <div class="col-12 col-sm-12 col-lg-12 p-3">
+                    <nav class="navbar-expand-sm bg-light navbar-ligth">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Forside</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Veteranbiler.html">Medlemmernes biler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Reservadele.html">Reservedele</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Infoomklubben.html">Info om klubben</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Login.html">Login</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <h2 class="h2-fluid text-center">Login</h2>
+                <p></p>
+            </div>
+            <!--login-->
+            <div class="h2-fluid text-center">
+                Brugernavn: <input id="myBrugernavn" type="text" name="txt" placeholder="Indtast brugernavn">
+                <br>
+                Kodeord: <input id="myKodeord" type="text" name="txt" placeholder="Indtast kodeord">
+                <br>
+                <button onclick="loget_ind()">login</button>
+                <input onclick="location.href='nylogin.html'" type="button" value="opret bruger" />
+            </div>
+        </div>
+        <!--under menu-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-12 p-3 bg-light"></div>
+
+                <div class="col-12 col-sm-4 col-lg-4 p-3 bg-light">
+                    <p> <i>consectetur adipiscing</i></p> 
+                    <p>Nam ut nisl quis mauris accumsan mollis. Proin eget condimentum tortor, eu lobortis lacus. Suspendisse varius rutrum mi eu rutrum. Donec vitae nulla odio. Sed vitae orci erat. Etiam quis tellus quis mi convallis ullamcorper. Nunc augue lacus.</p>
+                </div>
+
+                <div class="col-12 col-sm-4 col-lg-4 p-3 bg-light">
+                    <p> <i>consectetur adipiscing</i></p> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p> KLUBMØDER </p> 
+                    <p> Første Tirsdag i måneden kl. 17.00</p>
+                </div>
+
+                <div class="col-12 col-sm-4 col-lg-4 p-3 bg-light">
+                    <p> <i>SEKRETARIATETET</i></p> 
+                    <p>Sømarksvej 31, 5471 Søndersø <br> Telefon: 22567080 <br> Fax: 22335465 <br>Email: Veteranklub@gmail.com</p>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="javascript/login.js" ></script>
+    </body>
+</html>
